@@ -1,0 +1,318 @@
+.Container {
+   /* border: 1px solid; */
+   display: flex;
+   flex-direction: column;
+   background-color: #FFFFFF;
+}
+
+.headerContainer {
+   padding-top: 15px;
+   padding-left: 20px;
+   padding-right: 20px;
+   /* border: 1px solid rebeccapurple; */
+   /* background-color: rgba(0, 0, 0, 0.158); */
+}
+
+.headerStickyPositionContainer {
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-left: 20px;
+   padding-right: 20px;
+   background-color: rgba(32,26,22,.9);
+   /* border: 1px solid rebeccapurple; */
+   /* background-color: rgba(0, 0, 0, 0.158); */
+   transition: opacity .14s ease-in-out, visibility 0s 0s linear, top .14s ease-in-out;
+}
+
+.flexBox {
+   display: flex;
+   justify-content: space-between;
+}
+
+.OuterWraperHeaderContectButtons {
+   /* border: 1px solid red; */
+   display: flex;
+   gap: 40px;
+   font-size: 15px;
+   justify-content: center;
+   align-items: center;
+   color: #FFFFFF;
+}
+
+.outerWraperGirlLogoImage {
+   /* border: 1px solid red; */
+   width: 40px;
+   height: 40px;
+   margin-left: 12px;
+}
+
+.OuterWraperLogo {
+   /* border: 1px solid; */
+   text-align: center;
+   font-size: 25px;
+   font-weight: 600;
+   color: #FFFFFF;
+}
+
+.OuterContainerHeader {
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   height: 675px;
+   background-color: rgba(32, 26, 22, .7);
+   z-index: 99;
+   /* border: 1px solid red; */
+}
+
+.HeaderBackImageStyle {
+   left: 0px;
+   right: 0px;
+   top: -59.2278px;
+   /* width: 1498px; */
+   width: 100%;
+   height: 734.456px;
+   position: relative;
+}
+
+.portoflioButton {
+   border: 2px solid;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   cursor: pointer;
+   text-decoration: none;
+   color: white;
+   letter-spacing: 3px;
+}
+
+.portoflioButton:hover {
+   color: #9c9999;
+   background-color: white;
+}
+
+.portoflioButtonHader {
+   margin-top: 20px;
+   border: 2px solid #9c9999 !important;
+   color: #9c9999;
+   cursor: pointer;
+   text-align: center;
+   width: 25%;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   letter-spacing: 2px;
+   text-decoration: none;
+}
+
+.portoflioButtonHader:hover {
+   background-color: #9c9999;
+   color: black;
+}
+
+.TextHeadingDiscriptionBox {
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   background-color: rgba(32, 26, 22, .7);
+   /* border: 1px solid yellow; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.outerWraperHeadingTextContent {
+   font-weight: 500;
+   font-style: normal;
+   font-size: 32px;
+   letter-spacing: 0px;
+   text-transform: none;
+   line-height: 1.2em;
+   color: black;
+   text-align: center;
+}
+
+.textContentStyle {
+   font-weight: 300;
+   font-style: normal;
+   font-size: 17px;
+   letter-spacing: .5px;
+   line-height: 1.6em;
+   color: #1f1f1f;
+   text-align: center;
+   padding-left: 32px;
+   padding-right: 32px;
+}
+
+.HeadingTextYouTubeVideo {
+   margin-top: 20px;
+   font-size: 20px;
+   font-weight: 600;
+}
+
+.DiscriptionTextYouTubeVideo {
+   letter-spacing: 0.5px;
+   line-height: 1.6em;
+   color: rgb(31, 31, 31);
+   margin-top: 12px;
+   font-size: 16px;
+}
+
+.Link {
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+   letter-spacing: 3px;
+}
+
+.Link:hover {
+   color: #9c9999;
+}
+
+.outerContainerAboutScreen {
+   /* border: 1px solid; */
+   text-align: center;
+   margin-top: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.HeadingtextAboutScreen {
+   /* border: 1px solid; */
+   font-size: 50px;
+   letter-spacing: 4px;
+}
+
+.ContenttextAboutScreen {
+   margin-top: 12px;
+   color: black;
+}
+
+.OuterContainerContentAboutScreen {
+   /* border: 1px solid; */
+   margin-top: 50px;
+   width: 75%;
+   font-size: 20px;
+   text-align: left;
+   line-height: 27px;
+}
+
+.outerContainerBlogScreen {
+   /* border: 1px solid; */
+   width: 60%;
+   text-align: center;
+   margin-top: 50px;
+}
+
+.HeadingBlogScreen {
+   font-size: 40px;
+   letter-spacing: 4px;
+   margin-top: 70px;
+}
+
+.DateHeadingBlogScreen {
+   color: rgba(31, 31, 31, .5);
+   margin-top: 12px;
+   margin-bottom: 12px;
+   font-size: 20px;
+}
+
+.innerContentBlogScreen {
+   text-align: left;
+   line-height: 30px;
+   font-size: 20px;
+}
+
+.innerHeadingReadMoreBlogScreen {
+   color: rgba(31, 31, 31, .5);
+   text-align: left;
+   margin-top: 20px;
+   font-size: 20px;
+}
+
+.headingPortfolioScreen {
+   font-size: 60px;
+   font-weight: 500;
+   font-style: italic;
+   margin-bottom: 50px;
+}
+
+.InerHeadingDocumentsPortfolioScreen {
+   font-size: 30px;
+   letter-spacing: 3px;
+   font-weight: 700
+}
+
+.DocumentGroup2PortfolioScreen {
+   /* border: 4px solid; */
+   width: 50%;
+}
+
+.DocumentGroup1PortfolioScreen {
+   /* border: 4px solid red; */
+   width: 50%;
+
+}
+
+.innerdiscriptionPortfolioScreen {
+   margin-top: 30px;
+   font-size: 23px;
+   font-style: italic;
+   font-weight: 500;
+}
+
+.innerInnerdiscriptionPortfolioScreen {
+   margin-top: 30px;
+   font-size: 23px;
+   font-weight: 500;
+}
+
+.outerWraperDocumentPDFPortfolioScreen {
+   margin-top: 28px;
+   text-decoration: none;
+   color: rgba(31, 31, 31, .5);
+   font-size: 28px;
+}
+
+.outerWraperHeaderAboutScreen {
+   /* border: 1px solid; */
+}
+
+.outerWraperHeaderContent {
+   color: white;
+   font-size: 86px;
+   letter-spacing: 3px;
+
+}
+
+.OuterWraperTextAboutScreenISmyPassion {
+   margin-top: 20px;
+   color: #9c9999;
+   cursor: pointer;
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 30px;
+   letter-spacing: 5px;
+}
+
+.OuterWraperScrollUpButton{
+   background-color: rgba(32,26,22,.9);
+   position: fixed;
+   right: 5%;
+   bottom: 23%;
+   font-size: 31px;
+   padding: 14px;
+   color: white;
+   border-radius: 11px;
+   cursor: pointer;
+}
